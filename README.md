@@ -17,7 +17,7 @@ echo 'export do="--dry-run=client -o yaml"' >> ~/.bashrc
 # 5. (강력 추천) 파드 강제 즉시 삭제 변수화 - 파드 지워질 때까지 기다리는 시간 단축
 echo 'export now="--force --grace-period=0"' >> ~/.bashrc
 
-# 6. 터미널의 화면 멈춤(Flow Control) 기능 비활성화
+# 6. 터미널의 화면 멈춤(Flow Control) 기능 비활성화 = 히스토리에서 앞으로(최신) 검색
 echo 'stty -ixon' >> ~/.bashrc
 
 # 7. (선택 사항) 명시적으로 단축키 매핑 (보통은 1번만 해도 기본 작동합니다)
